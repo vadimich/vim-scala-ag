@@ -48,5 +48,5 @@ vnoremap <silent> <Plug>AgScalaVisual :<C-U>call <SID>Ag(visualmode())<CR>
 nnoremap <silent> <Plug>AgScala       :set hlsearch<CR>:<C-U>set opfunc=<SID>Ag<CR>g@
 nnoremap <silent> <Plug>AgScalaWord   :set hlsearch<CR>:<C-U>set opfunc=<SID>Ag<CR>g@iw
 
-vmap <leader>si <Plug>AgScalaVisual
-nmap <leader>si <Plug>AgScala
+vmap <leader>s <Plug>AgScalaVisual
+nmap <leader>s <Plug>AgScala
