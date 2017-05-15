@@ -34,7 +34,7 @@ function! s:Ag(mode) abort
 
   " execute Ag command
   " '!' is used to NOT jump to the first match
-  exe ":Ag!" "'(object|extends|with) ".escaped_for_ag."'"
+  exe ":Ag!" "'(class|object|extends|with) ".escaped_for_ag."'"
 
   " go to the first search match
   normal! n
